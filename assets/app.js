@@ -1,7 +1,7 @@
 var inputAnswer;
 var qCorrect = 0;
 var qIncorrect = 0;
-var remainingTime = 40;
+var remainingTime = 30;
 var counter;
 var score;
 
@@ -34,7 +34,7 @@ $("document").ready(() =>
         };
 
         counter = setTimeout(() =>
-        { times() }, 40000);
+        { times() }, 30000);
     });
 
 //use a loop to go through q and inputAnswer make simple
