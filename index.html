@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" 
+    integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Random Trivia!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class=row>
+            <div class="jumbotron" id="header">
+                    <h1 class="text-center">Random Trivia!</h1>
+                    <h2 class="displayTime"></h2>
+                    <button class="button btn-primary center-block startBtn"> Start Trivia!</button>               
+            </div>  
+        </div>
+    </div>
+    
+    <div class"row">
+        <div class="main-content">
+            <div class="allQ hidden" id="hide"><!--ADD HIDE-->
+                <div class="qContainer">
+                    <h2>USA stand for "United States of America".</h2>
+                    <form>
+                        <input type="radio" name="answer0" value="true">true
+                        <br>
+                        <input type="radio" name="answer0" value="false">false
+                        <br>
+                    </form>
+                </div>
+                <div class="qContainer">
+                    <h2>Apples do not come in orange flavor.</h2>
+                    <form>
+                        <input type="radio" name="answer1" value="true">true
+                        <br>
+                        <input type="radio" name="answer1" value="false">false
+                        <br>
+                    </form>
+                </div>
+                <div class="qContainer">
+                    <h2>Sales tax rate for Savannah is 7%.</h2>
+                    <form>
+                        <input type="radio" name="answer2" value="true">true
+                        <br>
+                        <input type="radio" name="answer2" value="false">false
+                        <br>
+                    </form>
+                </div>
+                <div class="qContainer">
+                    <h2>Obama was President for 2 terms.</h2>
+                    <form>
+                        <input type="radio" name="answer3" value="true">true
+                        <br>
+                        <input type="radio" name="answer3" value="false">false
+                        <br>
+                    </form>
+                </div>
+                <div class="qContainer">
+                    <h2>Jack died in Titanic.</h2>
+                    <form>
+                        <input type="radio" name="answer4" value="true">true
+                        <br>
+                        <input type="radio" name="answer4" value="false">false
+                        <br>
+                    </form>
+                </div>
+                <div id="btnDiv">
+                    <button class=" button btn-primary quizResultsBtn" type="submit" value="submit">
+                        <a href="#header">Check Quiz!</a>
+                    </button>
+                    <button class="button btn-primary resetBtn">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of entire row-->
+        
+
+
+
+
+</body>
+
+</html>
